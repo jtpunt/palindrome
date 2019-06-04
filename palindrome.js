@@ -13,7 +13,7 @@ function isPalindrome(str){
 			if(str[i] !== str[str.length - 1 - i]){
 				return false;
 			}
-			console.log(i, ' ', str.length - 1 - i, str[i], ' ', str[str.length - 1 - i]);
+			console.log(i + ': ', str[i], str.length - 1 - i + ': ',  str[str.length - 1 - i]);
 		}
 		return true;
 	}
